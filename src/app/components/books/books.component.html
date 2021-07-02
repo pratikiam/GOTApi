@@ -1,0 +1,11 @@
+<div class="container-fluid">
+    <div class="card col-md-6 cardAlign" style="width: 18rem;"  *ngFor="let books of allBooks; let i=index">
+        <div class="card-body">
+          <h5 class="card-title">Book Name : {{books.name}}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Date : {{books.released | date}}</h6>
+          <p class="card-text">Publisher : {{books.publisher}}</p>
+          <p class="card-text">Author by : {{books.authors}}</p>
+          <a href="#" class="card-link">view Deatils</a>         
+        </div>
+      </div>
+</div>

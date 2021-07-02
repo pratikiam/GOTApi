@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+</head>
+
+<body>
+    <div class="navBg">
+        <nav class="navbar navbar-expand-lg">
+            <img class="logo" src="../../../assets/logo.png" alt="Not available" srcset="">       
+                <div>
+                    <ul id="menuList" class="navbar-nav navRight">
+                        <li class="nav-item">
+                            <a id="ab" class="navMenu" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navMenu" [routerLink]="['/book']" routerLinkActive="active">Books</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navMenu" href="#">Charecters</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navMenu" href="#">Houses</a>
+                        </li>
+                    </ul>
+                </div> 
+        </nav>
+    </div>
+    
+    <div class="swiper-container">    
+        <swiper [navigation]="true" class="mySwiper">
+            <ng-template swiperSlide><img src="../../../assets/1.jpg" alt="Not available" srcset=""></ng-template>
+            <ng-template swiperSlide><img src="../../../assets/2.jpg" alt="Not available" srcset=""></ng-template>
+            <ng-template swiperSlide><img src="../../../assets/3.jpg" alt="Not available" srcset=""></ng-template>
+            <ng-template swiperSlide><img src="../../../assets/4.jpg" alt="Not available" srcset=""></ng-template>
+            <ng-template swiperSlide><img src="../../../assets/5.jpg" alt="Not available" srcset=""></ng-template>           
+        </swiper>
+    </div>
+    <div class="container imgContent">
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+/* You can add global styles to this file, and also import other style files */
+/* s */
+
+@import '~swiper/swiper-bundle';
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+.footer {
+  padding-top: 30px;
+  /* height: fit-content; */
+  background-color: #0D0F0E;
+}
+.footer-p {
+  color: #fff;
+  width: fit-content;
+  
+  background-color: #0D0F0E;
+  align-items: center;
+}
+.home {
+  
+  color: #fff;
+  width: fit-content;
+  height: max-content;
+  background-color: #0D0F0E;  
+  
+}
+.about-info {
+  color: #fff;
+  width: fit-content;
+  height: max-content;
+  background-color: #0D0F0E;  
+
+}
+
+.heading {
+ text-align: center;
+ /* font-size: large;      */
+ font-family: 'Cinzel Decorative', cursive;
+ padding-top: 90px;
+}
+
+p {
+  text-align: justify;
+  font-size: 15px;
+  line-height: 26.5px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+.logo {
+    width: 100px;  
+    margin-left: 300px;;  
+}
+
+.navBg{
+    background-color: #000000a1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.4s ease 0s;
+    display: grid;
+    align-items: center;
+    z-index: 111;
+    /* background-color: transparent; */
+    padding: 7px 0;
+    border-bottom: none;
+}
+
+.swiper-container {
+   
+    height: 500px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .navRight {     
+    margin-left: 650px;
+    font-size: large;     
+    font-family: 'Cinzel Decorative', cursive;
+   
+  }
+
+  #ab{
+      color: #fff;
+  }
+
+  #menuList :hover {
+      color: #a7140f;
+  }
+
+  .navMenu {
+      padding-right: 20px;
+      text-decoration: none ;
+      color: #fff;
+  }
+
+  .imgContent{  
+    mask-image: linear-gradient(to bottom, transparent 10%, black);     
+  }
+
+  .cardAlign {
+    align-self: center;
+  }
